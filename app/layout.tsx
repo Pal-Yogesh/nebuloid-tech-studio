@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Nebuloid Tech Studio",
   description: "Nebuloid Tech Studio is a web development company that provides web development services to businesses and individuals.",
+  icons:{
+    icon: "/logo.svg",
+  }
 };
 
 export default function RootLayout({
